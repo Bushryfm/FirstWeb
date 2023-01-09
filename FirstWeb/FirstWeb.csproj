@@ -1,0 +1,49 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\assets\img\css\NewFolder1\**" />
+    <Compile Remove="wwwroot\assets\img\css\NewFolder2\**" />
+    <Compile Remove="wwwroot\assets\img\css\NewFolder\**" />
+    <Compile Remove="wwwroot\lib\NewFolder\**" />
+    <Compile Remove="wwwroot\NewFolder1\**" />
+    <Compile Remove="wwwroot\NewFolder\**" />
+    <Content Remove="wwwroot\assets\img\css\NewFolder1\**" />
+    <Content Remove="wwwroot\assets\img\css\NewFolder2\**" />
+    <Content Remove="wwwroot\assets\img\css\NewFolder\**" />
+    <Content Remove="wwwroot\lib\NewFolder\**" />
+    <Content Remove="wwwroot\NewFolder1\**" />
+    <Content Remove="wwwroot\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\css\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\css\NewFolder2\**" />
+    <EmbeddedResource Remove="wwwroot\assets\img\css\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\lib\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder1\**" />
+    <EmbeddedResource Remove="wwwroot\NewFolder\**" />
+    <None Remove="wwwroot\assets\img\css\NewFolder1\**" />
+    <None Remove="wwwroot\assets\img\css\NewFolder2\**" />
+    <None Remove="wwwroot\assets\img\css\NewFolder\**" />
+    <None Remove="wwwroot\lib\NewFolder\**" />
+    <None Remove="wwwroot\NewFolder1\**" />
+    <None Remove="wwwroot\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\.editorconfig" />
+    <Content Remove="wwwroot\assets\img\css\pic3.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\NewFolder\js\main.js" />
+  </ItemGroup>
+
+</Project>

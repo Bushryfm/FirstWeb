@@ -1,0 +1,9 @@
+﻿body {
+    background: #ffffff url("imgsl.jpeg") no-repeat right top;
+    background-color: #BDCFC5;
+}
+
+h1 {
+    color: darkgreen;
+    text-decoration: underline;
+}
